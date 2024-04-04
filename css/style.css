@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    text-align: center;
+    color: darkslateblue;
+}
+.Footer{
+    display: flex;
+    flex-direction: column;
+    border-top: solid 1px blueviolet;
+    background-color: rgb(194, 240, 240);
+}
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.DescriptionPhone{
+    display: flex;
+    height: fit-content;
+}
+ol,tr,p,li,a,h5{
+    display: flex;
+    margin:10px;
+}
+img{
+    display: flex;
+    width: fit-content;
+}
+li{
+    margin-right: 15px;
+}
+.ListaPhone{
+    display: flex;
+    flex-wrap: wrap;
+}
